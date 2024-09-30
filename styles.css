@@ -2,12 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -15,4 +16,56 @@ body {
     display: flex;
     gap: 16px;
     list-style-type: none;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center; /* Vertically center the image (optional) */
+    /* max-width: 100%; */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.section-one > .main-right > img {
+    width: 100%;        /* Let the image resize to fit the container */
+    max-width: 600px;   /* Image will not grow larger than 300px */
+    height: auto;       /* Maintain aspect ratio */
+    flex-shrink: 1;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Center the image (optional) */
+    align-items: center; /* Vertically center the image (optional) */
+    
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.main-title {
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.bg-one {
+    height: 100%;
+    width: 100%;
 }
