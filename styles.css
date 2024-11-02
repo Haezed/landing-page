@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     height: 100vh;
     background-color: #1F2937;
+    flex: 1;
 }
 
 .header {
@@ -173,4 +174,74 @@ body {
     gap: 5px;
     display: flex;
     margin-top: 7px;
+}
+
+.section-four {
+    display: flex;
+    background-color: white;
+    flex: 1;
+    background-size: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15vh 5vh 15vh 5vh;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7vh 5vh 7vh 5vh;
+    gap: 7px;
+    border-radius: 8px;
+    flex-basis: 65%;
+}
+
+.cta {
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: large;
+
+}
+
+.cta-subtext {
+    color: #F9FAF8;
+    font-size: small;
+}
+
+.sec-four-left {
+    flex-direction: column;
+}
+
+.sec-four-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 1vh 2vh 1vh 2vh;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh 0 4vh 0;
+    width: 100%;
+    height: auto;
+}
+
+.footer > p {
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+    flex-basis: auto;
+    text-align: center;
+    color: #F9FAF8;
 }
